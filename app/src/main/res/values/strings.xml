@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name" translatable="false">MandiMitra</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="enter_item_rate">Enter Item Rate</string>
+    // price, paao, KG, 1 Paao, Half KG, 3 Paao, 1 KG, More KG, Add Item, View Bill, Total Amount,
+    You Want to Buy
+    <string name="price">Price</string>
+    <string name="paao">Paao</string>
+    <string name="KG">KG</string>
+    <string name="one_paao">1 Paao</string>
+    <string name="half_kg">Half KG</string>
+    <string name="three_paao">3 Paao</string>
+    <string name="one_kg">1 KG</string>
+    <string name="more_kg">More KG</string>
+    <string name="dozen">Dozen</string>
+    <string name="add_item">Add Item</string>
+    <string name="view_bill">View Bill</string>
+    <string name="total_amount">Total Amount ₹</string>
+    <string name="you_want_to_buy">You Want to Buy</string>
+
+    // Rate, Qty, Total, Start Again, Bill Details, Item
+    <string name="rate">Rate</string>
+    <string name="qty">Qty</string>
+    <string name="total">Total</string>
+    <string name="start_again">Start Again</string>
+    <string name="bill_details">Bill Details</string>
+    <string name="item">Item</string>
+
+    // Settings, Release Notes, Remove Ads, Rate Us, Share App, Feedback, About Us, Privacy Policy,
+    Terms &amp; Conditions
+    <string name="settings">Settings</string>
+    <string name="release_notes">Release Notes</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share_app">Share App</string>
+    <string name="feedback">Feedback</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+
+    <string name="ad_id_banner_test" translatable="false">ca-app-pub-7871185710478480/7113649160</string>
+</resources>

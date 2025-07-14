@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "261043083915",
+    "project_id": "mandimitra",
+    "storage_bucket": "mandimitra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261043083915:android:08e3fb5a2f1a3abbec928e",
+        "android_client_info": {
+          "package_name": "com.aatmamartya.mandimitra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA-PN69xFW__hAdjuCMUJTJLoUSHlcZWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

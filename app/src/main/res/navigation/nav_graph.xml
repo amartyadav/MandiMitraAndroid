@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/itemEntryFragment">
+
+    <fragment
+        android:id="@+id/itemEntryFragment"
+        android:name="com.aatmamartya.mandimitra.views.ItemEntryScreen.ItemEntryFragment"
+        android:label="fragment_item_entry"
+        tools:layout="@layout/fragment_item_entry">
+
+        <action
+            android:id="@+id/action_itemEntryFragment_to_viewListFragment"
+            app:destination="@id/viewListFragment" />
+        <action
+            android:id="@+id/action_itemEntryFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/viewListFragment"
+        android:name="com.aatmamartya.mandimitra.views.DetailedBill.ViewListFragment"
+        android:label="fragment_view_list"
+        tools:layout="@layout/fragment_view_list">
+        <argument
+            android:name="shoppingList"
+            app:argType="com.aatmamartya.mandimitra.ShoppingItem[]" />
+        <action
+            android:id="@+id/action_viewListFragment_to_itemEntryFragment"
+            app:destination="@id/itemEntryFragment" />
+        <action
+            android:id="@+id/action_viewListFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.aatmamartya.mandimitra.views.SettingsScreen.SettingsFragment"
+        android:label="SettingsFragment">
+
+    </fragment>
+
+</navigation>

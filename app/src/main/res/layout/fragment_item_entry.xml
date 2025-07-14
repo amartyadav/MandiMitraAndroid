@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <!-- Price Input -->
+        <EditText
+            android:id="@+id/priceInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price per Unit"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="rupay" />
+
+        <!-- Unit Selector -->
+        <Spinner
+            android:id="@+id/unitSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp" />
+    </LinearLayout>
+
+    <!-- Quantity Selection -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Select Quantity" />
+
+    <RadioGroup
+        android:id="@+id/quantitySelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/onePaao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 Paao" />
+
+        <RadioButton
+            android:id="@+id/halfKilo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2 Kilo" />
+
+        <RadioButton
+            android:id="@+id/threePaao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 Paao" />
+
+        <RadioButton
+            android:id="@+id/oneKilo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 Kilo" />
+
+        <RadioButton
+            android:id="@+id/customQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/customQuantityInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Kilo"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/customQuantityUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="Kilo" />
+    </LinearLayout>
+
+    <!-- Add to list button -->
+    <Button
+        android:id="@+id/addToListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Add To List" />
+</LinearLayout>
